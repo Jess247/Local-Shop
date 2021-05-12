@@ -1,8 +1,9 @@
-body {
-  background: #000;
+main {
+  background: #fcfcfc;
 }
 
-body h1 {
-  color: chartreuse;
+main .text-accent {
+  color: #e02b2b;
+  font-weight: 400;
 }
 /*# sourceMappingURL=main.css.map */

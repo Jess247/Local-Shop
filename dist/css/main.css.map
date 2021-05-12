@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,IAAI;CAKjB;;AAND,AAGE,IAHE,CAGF,EAAE,CAAC;EACD,KAAK,EAAE,UAAU;CAClB",
+    "mappings": "AACA,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,OAAuB;CAMpC;;AAPD,AAGE,IAHE,CAGF,YAAY,CAAC;EACX,KAAK,ECFI,OAAO;EDGhB,WAAW,EAAE,GAAG;CACjB",
     "sources": [
-        "../../landing-page/scss/main.scss"
+        "../../landing-page/scss/main.scss",
+        "../../landing-page/scss/_variables.scss"
     ],
     "names": [],
     "file": "main.css"

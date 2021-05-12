@@ -1,7 +1,9 @@
-body {
-  background: #000;
+@import "variables";
+main {
+  background: lighten($clr-dark, 90%);
 
-  h1 {
-    color: chartreuse;
+  .text-accent {
+    color: $clr-accent;
+    font-weight: 400;
   }
 }

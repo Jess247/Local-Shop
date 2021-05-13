@@ -1,3 +1,21 @@
+#hero_carousel,
+#hero .hero_carousel-img {
+  height: 70vh;
+  width: 100vw;
+}
+
+#products_grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60px 60px;
+      grid-template-columns: 60px 60px;
+}
+
+#products .product_grid_cell {
+  height: 2rem;
+  width: 2rem;
+}
+
 main {
   background: #fcfcfc;
 }

@@ -7,13 +7,25 @@
 }
 
 #products {
-  &_grid {
+  #products_grid {
+    margin: 3rem 0;
     display: grid;
-    grid-template-columns: 60px 60px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4px;
   }
 
-  .product_grid_cell {
-    height: 2rem;
-    width: 2rem;
+  .products_grid-cell {
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    background: lighten($clr-dark, 60%);
+    border-radius: 5px;
+    text-align: center;
+
+    img {
+      height: 300px;
+      width: 300px;
+      margin-top: 2rem;
+    }
   }
 }

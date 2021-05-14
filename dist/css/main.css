@@ -4,16 +4,28 @@
   width: 100vw;
 }
 
-#products_grid {
+#products #products_grid {
+  margin: 3rem 0;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 60px 60px;
-      grid-template-columns: 60px 60px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4px;
 }
 
-#products .product_grid_cell {
-  height: 2rem;
-  width: 2rem;
+#products .products_grid-cell {
+  height: 400px;
+  width: 400px;
+  margin: 0 auto;
+  background: #b1aeae;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#products .products_grid-cell img {
+  height: 300px;
+  width: 300px;
+  margin-top: 2rem;
 }
 
 main {

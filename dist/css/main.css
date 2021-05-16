@@ -4,28 +4,19 @@
   width: 100vw;
 }
 
-#products #products_grid {
-  margin: 3rem 0;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 4px;
-}
-
-#products .products_grid-cell {
-  height: 400px;
-  width: 400px;
+#products {
+  height: 100%;
+  width: 100%;
   margin: 0 auto;
-  background: #b1aeae;
-  border-radius: 5px;
-  text-align: center;
 }
 
-#products .products_grid-cell img {
-  height: 300px;
-  width: 300px;
+#products_items h5 {
   margin-top: 2rem;
+  margin-top: 0;
+}
+
+#products img {
+  max-width: 300px;
 }
 
 main {

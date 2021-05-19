@@ -1,0 +1,26 @@
+#hero {
+  &_carousel,
+  .hero_carousel-img {
+    height: 70vh;
+    width: 100vw;
+  }
+}
+
+#products {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+
+  .products_items {
+    width: 15rem;
+
+    h5 {
+      margin-top: 2rem;
+      margin-top: 0;
+    }
+  }
+
+  img {
+    max-width: 300px;
+  }
+}

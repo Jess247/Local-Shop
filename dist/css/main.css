@@ -10,7 +10,11 @@
   margin: 0 auto;
 }
 
-#products_items h5 {
+#products .products_items {
+  width: 15rem;
+}
+
+#products .products_items h5 {
   margin-top: 2rem;
   margin-top: 0;
 }

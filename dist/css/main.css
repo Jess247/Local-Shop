@@ -4,6 +4,20 @@
   width: 100vw;
 }
 
+#map_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 2rem;
+}
+
+#map_area-adress {
+  margin: 2rem 1rem;
+}
+
 #products {
   height: 100%;
   width: 100%;
@@ -11,7 +25,8 @@
 }
 
 #products .products_items {
-  width: 15rem;
+  width: 20rem;
+  margin: 0.8rem;
 }
 
 #products .products_items h5 {
@@ -21,6 +36,15 @@
 
 #products img {
   max-width: 300px;
+}
+
+#products .jumbotron {
+  width: 60vw;
+  margin: 0 auto;
+  background: #cac8c8;
+  padding: 0.8rem;
+  border-radius: 3px;
+  text-align: center;
 }
 
 main {

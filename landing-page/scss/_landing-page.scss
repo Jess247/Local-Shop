@@ -12,7 +12,8 @@
   margin: 0 auto;
 
   .products_items {
-    width: 15rem;
+    width: 20rem;
+    margin: 0.8rem;
 
     h5 {
       margin-top: 2rem;
@@ -22,5 +23,14 @@
 
   img {
     max-width: 300px;
+  }
+
+  .jumbotron {
+    width: 60vw;
+    margin: 0 auto;
+    background: lighten($clr-dark, 70%);
+    padding: 0.8rem;
+    border-radius: 3px;
+    text-align: center;
   }
 }

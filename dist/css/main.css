@@ -4,28 +4,46 @@
   width: 100vw;
 }
 
+#about {
+  max-width: 60vw;
+  margin: 0 auto;
+  padding: 2rem;
+  border-bottom: 1px solid #171616;
+}
+
 #map_area {
+  width: 60vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 2rem;
+  margin: 0 auto;
+  padding: 2rem;
+  border-bottom: 1px solid #171616;
 }
 
 #map_area-adress {
-  margin: 2rem 1rem;
+  margin: 2rem 0 0 1rem;
+}
+
+#map_area-map iframe {
+  width: 400px;
+  height: 350px;
+}
+
+#map_area-adress-adress {
+  border-bottom: 1px dotted #e02b2b;
+  padding-bottom: 1rem;
 }
 
 #products {
   height: 100%;
   width: 100%;
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 
 #products .products_items {
-  width: 20rem;
+  background: #e3e2e2;
+  width: 18rem;
   margin: 0.8rem;
 }
 
@@ -34,13 +52,9 @@
   margin-top: 0;
 }
 
-#products img {
-  max-width: 300px;
-}
-
 #products .jumbotron {
   width: 60vw;
-  margin: 0 auto;
+  margin: 1rem auto;
   background: #cac8c8;
   padding: 0.8rem;
   border-radius: 3px;
@@ -54,5 +68,11 @@ main {
 main .text-accent {
   color: #e02b2b;
   font-weight: 400;
+}
+
+main .btn {
+  background: #e02b2b;
+  border: 1px solid #e02b2b;
+  color: #fcfcfc;
 }
 /*# sourceMappingURL=main.css.map */

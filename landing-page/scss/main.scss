@@ -7,4 +7,10 @@ main {
     color: $clr-accent;
     font-weight: 400;
   }
+
+  .btn {
+    background: $clr-accent;
+    border: 1px solid $clr-accent;
+    color: lighten($clr-dark, 90%);
+  }
 }
